@@ -46,3 +46,6 @@
 [submodule "libhaloc"]
 	path = libhaloc
 	url = git@github.com:srv/libhaloc.git
+[submodule "ros_arduino_bridge"]
+	path = ros_arduino_bridge
+	url = git@github.com:srv/ros_arduino_bridge.git
