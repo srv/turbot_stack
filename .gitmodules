@@ -37,9 +37,6 @@
 [submodule "image_proc_custom"]
 	path = image_proc_custom
 	url = git@github.com:srv/image_proc_custom.git
-[submodule "underwater_simulation"]
-	path = underwater_simulation
-	url = git@github.com:uji-ros-pkg/underwater_simulation.git
 [submodule "orb_tracker"]
 	path = orb_tracker
 	url = git@bitbucket.org:uib_srv/orb_tracker.git
