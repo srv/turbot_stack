@@ -43,3 +43,6 @@
 [submodule "orb_tracker"]
 	path = orb_tracker
 	url = git@bitbucket.org:uib_srv/orb_tracker.git
+[submodule "libhaloc"]
+	path = libhaloc
+	url = git@github.com:srv/libhaloc.git
