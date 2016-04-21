@@ -40,6 +40,3 @@
 [submodule "underwater_simulation"]
 	path = underwater_simulation
 	url = git@github.com:uji-ros-pkg/underwater_simulation.git
-[submodule "visual_altimeter"]
-	path = visual_altimeter
-	url = git@github.com:srv/visual_altimeter.git
