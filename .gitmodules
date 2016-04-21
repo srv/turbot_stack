@@ -1,0 +1,45 @@
+[submodule "acoustic_link"]
+	path = acoustic_link
+	url = git@github.com:srv/acoustic_link.git
+[submodule "usbl_position"]
+	path = usbl_position
+	url = git@github.com:srv/usbl_position.git
+[submodule "evologics_ros"]
+	path = evologics_ros
+	url = git@github.com:srv/evologics_ros.git
+[submodule "mjpeg_server"]
+	path = mjpeg_server
+	url = git@github.com:srv/mjpeg_server.git
+[submodule "laserscan_to_pointcloud"]
+	path = laserscan_to_pointcloud
+	url = git@github.com:srv/laserscan_to_pointcloud.git
+[submodule "stereo_slam"]
+	path = stereo_slam
+	url = git@github.com:srv/stereo_slam.git
+[submodule "avt_vimba_camera"]
+	path = avt_vimba_camera
+	url = git@github.com:srv/avt_vimba_camera.git
+[submodule "miniking_ros"]
+	path = miniking_ros
+	url = git@github.com:srv/miniking_ros.git
+[submodule "libminiking"]
+	path = libminiking
+	url = git@github.com:srv/libminiking.git
+[submodule "robot_localization"]
+	path = robot_localization
+	url = git@github.com:srv/robot_localization.git
+[submodule "turbot"]
+	path = turbot
+	url = git@github.com:srv/turbot.git
+[submodule "auv_msgs"]
+	path = auv_msgs
+	url = git@bitbucket.org:udg_cirs/auv_msgs.git
+[submodule "image_proc_custom"]
+	path = image_proc_custom
+	url = git@github.com:srv/image_proc_custom.git
+[submodule "underwater_simulation"]
+	path = underwater_simulation
+	url = git@github.com:uji-ros-pkg/underwater_simulation.git
+[submodule "visual_altimeter"]
+	path = visual_altimeter
+	url = git@github.com:srv/visual_altimeter.git
