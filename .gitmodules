@@ -1,48 +1,64 @@
 [submodule "acoustic_link"]
-	path = acoustic_link
-	url = git@github.com:srv/acoustic_link.git
+  path = acoustic_link
+  url = git@github.com:srv/acoustic_link.git
+  branch = master
 [submodule "usbl_position"]
-	path = usbl_position
-	url = git@github.com:srv/usbl_position.git
+  path = usbl_position
+  url = git@github.com:srv/usbl_position.git
+  branch = master
 [submodule "evologics_ros"]
-	path = evologics_ros
-	url = git@github.com:srv/evologics_ros.git
+  path = evologics_ros
+  url = git@github.com:srv/evologics_ros.git
+  branch = master
 [submodule "mjpeg_server"]
-	path = mjpeg_server
-	url = git@github.com:srv/mjpeg_server.git
+  path = mjpeg_server
+  url = git@github.com:srv/mjpeg_server.git
+  branch = develop
 [submodule "laserscan_to_pointcloud"]
-	path = laserscan_to_pointcloud
-	url = git@github.com:srv/laserscan_to_pointcloud.git
+  path = laserscan_to_pointcloud
+  url = git@github.com:srv/laserscan_to_pointcloud.git
+  branch = master
 [submodule "stereo_slam"]
-	path = stereo_slam
-	url = git@github.com:srv/stereo_slam.git
+  path = stereo_slam
+  url = git@github.com:srv/stereo_slam.git
+  branch = indigo
 [submodule "avt_vimba_camera"]
-	path = avt_vimba_camera
-	url = git@github.com:srv/avt_vimba_camera.git
+  path = avt_vimba_camera
+  url = git@github.com:srv/avt_vimba_camera.git
+  branch = indigo
 [submodule "miniking_ros"]
-	path = miniking_ros
-	url = git@github.com:srv/miniking_ros.git
+  path = miniking_ros
+  url = git@github.com:srv/miniking_ros.git
+  branch = master
 [submodule "libminiking"]
-	path = libminiking
-	url = git@github.com:srv/libminiking.git
+  path = libminiking
+  url = git@github.com:srv/libminiking.git
+  branch = master
 [submodule "robot_localization"]
-	path = robot_localization
-	url = git@github.com:srv/robot_localization.git
+  path = robot_localization
+  url = git@github.com:srv/robot_localization.git
+  branch = indigo-devel
 [submodule "turbot"]
-	path = turbot
-	url = git@github.com:srv/turbot.git
+  path = turbot
+  url = git@github.com:srv/turbot.git
+  branch = indigo
 [submodule "auv_msgs"]
-	path = auv_msgs
-	url = git@bitbucket.org:udg_cirs/auv_msgs.git
+  path = auv_msgs
+  url = git@bitbucket.org:udg_cirs/auv_msgs.git
+  branch = master
 [submodule "image_proc_custom"]
-	path = image_proc_custom
-	url = git@github.com:srv/image_proc_custom.git
+  path = image_proc_custom
+  url = git@github.com:srv/image_proc_custom.git
+  branch = indigo
 [submodule "orb_tracker"]
-	path = orb_tracker
-	url = git@bitbucket.org:uib_srv/orb_tracker.git
+  path = orb_tracker
+  url = git@bitbucket.org:uib_srv/orb_tracker.git
+  branch = master
 [submodule "libhaloc"]
-	path = libhaloc
-	url = git@github.com:srv/libhaloc.git
+  path = libhaloc
+  url = git@github.com:srv/libhaloc.git
+  branch = indigo
 [submodule "ros_arduino_bridge"]
-	path = ros_arduino_bridge
-	url = git@github.com:srv/ros_arduino_bridge.git
+  path = ros_arduino_bridge
+  url = git@github.com:srv/ros_arduino_bridge.git
+  branch = indigo
