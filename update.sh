@@ -14,12 +14,12 @@ find_git_branch() {
 
 #!/bin/bash
 for d in */;
-{ 
-  cd "$d"; 
-  echo "********* $d ***********"; 
+{
+  cd "$d";
+  echo "********* $d ***********";
   find_git_branch;
-  git pull origin $git_branch; 
-  cd ..; 
+  git pull origin $git_branch;
+  cd ..;
 }
 
 DATE_FMT="+%Y-%m-%d %H:%M:%S"
@@ -31,4 +31,5 @@ fi
 
 git add -u
 git commit -m"$FORMATTED_COMMITMSG"
+git pull
 git push
