@@ -10,7 +10,7 @@ Wait for the code to download.
 
 ## Working with submodules
 
- 1. Pull twice: On the main repository execute `git pull && git submodule update`.
+ 1. Pull twice: On the main repository execute `git pull && git submodule foreach git pull`.
  2. Push twice: Work with the code in any submodule as usual. Commit and push as usual. At the end, go to the main repository and check what a `git status` shows. It will normally show that a particular repo has changed. For example:
 
  Say we have a main repo called *robot* and a submodule called *sensor*. If we update it, we have to commit twice, one for the submodule and another for the main repo.
