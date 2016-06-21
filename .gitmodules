@@ -62,3 +62,7 @@
   path = ros_arduino_bridge
   url = git@github.com:srv/ros_arduino_bridge.git
   branch = indigo
+[submodule "occupancy_grid_utils"]
+  path = occupancy_grid_utils
+  url = git@github.com:clearpathrobotics/occupancy_grid_utils.git
+  branch = indigo-devel
