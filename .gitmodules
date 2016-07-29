@@ -1,23 +1,19 @@
 [submodule "acoustic_link"]
   path = acoustic_link
   url = git@github.com:srv/acoustic_link.git
-  branch = master
+  branch = indigo
 [submodule "usbl_position"]
   path = usbl_position
   url = git@github.com:srv/usbl_position.git
-  branch = master
+  branch = indigo
 [submodule "evologics_ros"]
   path = evologics_ros
   url = git@github.com:srv/evologics_ros.git
-  branch = master
+  branch = indigo
 [submodule "mjpeg_server"]
   path = mjpeg_server
   url = git@github.com:srv/mjpeg_server.git
-  branch = develop
-[submodule "laserscan_to_pointcloud"]
-  path = laserscan_to_pointcloud
-  url = git@github.com:srv/laserscan_to_pointcloud.git
-  branch = master
+  branch = indigo
 [submodule "stereo_slam"]
   path = stereo_slam
   url = git@github.com:srv/stereo_slam.git
@@ -29,23 +25,23 @@
 [submodule "miniking_ros"]
   path = miniking_ros
   url = git@github.com:srv/miniking_ros.git
-  branch = master
+  branch = indigo
 [submodule "libminiking"]
   path = libminiking
   url = git@github.com:srv/libminiking.git
-  branch = master
+  branch = indigo
 [submodule "robot_localization"]
   path = robot_localization
   url = git@github.com:srv/robot_localization.git
-  branch = indigo-devel
+  branch = indigo
 [submodule "turbot"]
   path = turbot
   url = git@github.com:srv/turbot.git
   branch = indigo
 [submodule "auv_msgs"]
   path = auv_msgs
-  url = git@bitbucket.org:udg_cirs/auv_msgs.git
-  branch = master
+  url = git@github.com:srv/auv_msgs.git
+  branch = indigo
 [submodule "image_proc_custom"]
   path = image_proc_custom
   url = git@github.com:srv/image_proc_custom.git
@@ -64,5 +60,5 @@
   branch = indigo
 [submodule "occupancy_grid_utils"]
   path = occupancy_grid_utils
-  url = git@github.com:clearpathrobotics/occupancy_grid_utils.git
-  branch = indigo-devel
+  url = git@github.com:srv/occupancy_grid_utils.git
+  branch = indigo
