@@ -70,3 +70,7 @@
 	path = gscam
 	url = git@github.com:srv/gscam.git
         branch = kinetic
+[submodule "multimaster_fkie"]
+	path = multimaster_fkie
+	url = git@github.com:srv/multimaster_fkie.git
+        branch = kinetic
