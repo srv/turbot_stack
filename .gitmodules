@@ -66,3 +66,7 @@
   path = pose_cov_ops
   url = git@github.com:srv/pose_cov_ops.git
   branch = kinetic
+[submodule "gscam"]
+	path = gscam
+	url = git@github.com:srv/gscam.git
+        branch = kinetic
