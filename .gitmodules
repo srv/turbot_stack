@@ -74,3 +74,7 @@
 	path = multimaster_fkie
 	url = git@github.com:srv/multimaster_fkie.git
         branch = kinetic
+[submodule "collision_avoidance"]
+	path = collision_avoidance
+	url = git@github.com:srv/collision_avoidance.git
+        branch = kinetic
