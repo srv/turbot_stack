@@ -67,14 +67,14 @@
   url = git@github.com:srv/pose_cov_ops.git
   branch = kinetic
 [submodule "gscam"]
-	path = gscam
-	url = git@github.com:srv/gscam.git
-        branch = kinetic
+  path = gscam
+  url = git@github.com:srv/gscam.git
+  branch = kinetic
 [submodule "multimaster_fkie"]
-	path = multimaster_fkie
-	url = git@github.com:srv/multimaster_fkie.git
-        branch = kinetic
+  path = multimaster_fkie
+  url = git@github.com:srv/multimaster_fkie.git
+  branch = kinetic
 [submodule "collision_avoidance"]
-	path = collision_avoidance
-	url = git@github.com:srv/collision_avoidance.git
-        branch = kinetic
+  path = collision_avoidance
+  url = git@github.com:srv/collision_avoidance.git
+  branch = kinetic
