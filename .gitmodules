@@ -78,3 +78,12 @@
   path = collision_avoidance
   url = git@github.com:srv/collision_avoidance.git
   branch = kinetic
+[submodule "pointgrey_camera_driver"]
+	path = pointgrey_camera_driver
+	url = git@github.com:srv/pointgrey_camera_driver.git
+[submodule "flea3"]
+	path = flea3
+	url = https://github.com/srv/flea3
+[submodule "camera_base"]
+	path = camera_base
+	url = git@github.com:srv/camera_base.git
