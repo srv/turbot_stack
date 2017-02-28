@@ -78,3 +78,7 @@
   path = pg_spinnaker_camera
   url = git@github.com:srv/pg_spinnaker_camera.git
   branch = kinetic
+[submodule "emlid_reach_tcp"]
+  path = emlid_reach_tcp
+  url = git@github.com:srv/emlid_reach_tcp.git
+  branch = kinetic
