@@ -18,10 +18,6 @@
   path = stereo_slam
   url = git@github.com:srv/stereo_slam.git
   branch = kinetic
-[submodule "avt_vimba_camera"]
-  path = avt_vimba_camera
-  url = git@github.com:srv/avt_vimba_camera.git
-  branch = kinetic
 [submodule "miniking_ros"]
   path = miniking_ros
   url = git@github.com:srv/miniking_ros.git
