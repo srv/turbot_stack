@@ -66,10 +66,6 @@
   path = emlid_reach_tcp
   url = git@github.com:srv/emlid_reach_tcp.git
   branch = kinetic
-[submodule "driver_common"]
-  path = driver_common
-  url = git@github.com:srv/driver_common.git
-  branch = kinetic
 [submodule "prosilica_driver"]
   path = prosilica_driver
   url = git@github.com:srv/prosilica_driver.git
