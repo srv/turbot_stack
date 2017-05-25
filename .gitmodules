@@ -86,3 +86,6 @@
   path = prosilica_driver
   url = git@github.com:srv/prosilica_driver.git
   branch = kinetic
+[submodule "evologics_ros_sync"]
+	path = evologics_ros_sync
+	url = git@github.com:srv/evologics_ros_sync.git
