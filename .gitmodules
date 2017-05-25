@@ -62,10 +62,6 @@
   path = pose_cov_ops
   url = git@github.com:srv/pose_cov_ops.git
   branch = kinetic
-[submodule "gscam"]
-  path = gscam
-  url = git@github.com:srv/gscam.git
-  branch = kinetic
 [submodule "multimaster_fkie"]
   path = multimaster_fkie
   url = git@github.com:srv/multimaster_fkie.git
@@ -86,3 +82,6 @@
   path = prosilica_driver
   url = git@github.com:srv/prosilica_driver.git
   branch = kinetic
+[submodule "evologics_ros_sync"]
+	path = evologics_ros_sync
+	url = git@github.com:srv/evologics_ros_sync.git
