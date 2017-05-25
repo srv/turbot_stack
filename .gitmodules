@@ -1,14 +1,6 @@
-[submodule "acoustic_link"]
-  path = acoustic_link
-  url = git@github.com:srv/acoustic_link.git
-  branch = kinetic
 [submodule "usbl_position"]
   path = usbl_position
   url = git@github.com:srv/usbl_position.git
-  branch = kinetic
-[submodule "evologics_ros"]
-  path = evologics_ros
-  url = git@github.com:srv/evologics_ros.git
   branch = kinetic
 [submodule "mjpeg_server"]
   path = mjpeg_server
@@ -83,5 +75,6 @@
   url = git@github.com:srv/prosilica_driver.git
   branch = kinetic
 [submodule "evologics_ros_sync"]
-	path = evologics_ros_sync
-	url = git@github.com:srv/evologics_ros_sync.git
+  path = evologics_ros_sync
+  url = git@github.com:srv/evologics_ros_sync.git
+  branch = kinetic
