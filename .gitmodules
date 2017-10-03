@@ -6,10 +6,6 @@
   path = mjpeg_server
   url = git@github.com:srv/mjpeg_server.git
   branch = kinetic
-[submodule "stereo_slam"]
-  path = stereo_slam
-  url = git@github.com:srv/stereo_slam.git
-  branch = kinetic
 [submodule "miniking_ros"]
   path = miniking_ros
   url = git@github.com:srv/miniking_ros.git
@@ -34,10 +30,6 @@
   path = image_proc_custom
   url = git@github.com:srv/image_proc_custom.git
   branch = kinetic
-[submodule "orb_tracker"]
-  path = orb_tracker
-  url = git@github.com:srv/orb_tracker.git
-  branch = kinetic
 [submodule "libhaloc"]
   path = libhaloc
   url = git@github.com:srv/libhaloc.git
@@ -45,10 +37,6 @@
 [submodule "ros_arduino_bridge"]
   path = ros_arduino_bridge
   url = git@github.com:srv/ros_arduino_bridge.git
-  branch = kinetic
-[submodule "occupancy_grid_utils"]
-  path = occupancy_grid_utils
-  url = git@github.com:srv/occupancy_grid_utils.git
   branch = kinetic
 [submodule "pose_cov_ops"]
   path = pose_cov_ops
