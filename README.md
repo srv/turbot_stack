@@ -8,6 +8,11 @@ Clone this repository and execute the script `install_first_time.sh`
 
 Wait for the code to download.
 
+## Dependencies
+
+      $ sudo apt install ros-melodic-mrpt-bridge ros-melodic-geographic-msgs ros-melodic-geographic-joy ros-melodic-rosbridge-server ros-melodic-imu-filter-madgwick
+
+
 ## Working with submodules
 
  1. Pull twice: On the main repository execute `git pull && git submodule foreach git pull`.

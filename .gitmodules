@@ -21,7 +21,7 @@
 [submodule "turbot"]
   path = turbot
   url = git@github.com:srv/turbot.git
-  branch = kinetic
+  branch = melodic
 [submodule "auv_msgs"]
   path = auv_msgs
   url = git@github.com:srv/auv_msgs.git
