@@ -10,7 +10,7 @@ Wait for the code to download.
 
 ## Dependencies
 
-      $ sudo apt install ros-melodic-mrpt-bridge ros-melodic-geographic-msgs ros-melodic-geographic-joy ros-melodic-rosbridge-server ros-melodic-imu-filter-madgwick
+      $ sudo apt install ros-melodic-mrpt-bridge ros-melodic-geographic-msgs ros-melodic-rosbridge-server ros-melodic-imu-filter-madgwick
 
 
 ## Working with submodules
