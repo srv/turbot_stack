@@ -13,7 +13,7 @@
 [submodule "image_proc_custom"]
   path = image_proc_custom
   url = git@github.com:srv/image_proc_custom.git
-  branch = kinetic
+  branch = melodic
 [submodule "ros_arduino_bridge"]
   path = ros_arduino_bridge
   url = git@github.com:srv/ros_arduino_bridge.git

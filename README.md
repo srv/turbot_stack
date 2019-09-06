@@ -8,7 +8,7 @@ Clone this repository and execute the script `install_first_time.sh`
 
 Wait for the code to download.
 
-## Dependencies
+Install dependencies
 
       $ sudo apt install ros-melodic-mrpt-bridge ros-melodic-geographic-msgs ros-melodic-rosbridge-server ros-melodic-imu-filter-madgwick
 
