@@ -17,7 +17,7 @@
 [submodule "ros_arduino_bridge"]
   path = ros_arduino_bridge
   url = git@github.com:srv/ros_arduino_bridge.git
-  branch = kinetic
+  branch = melodic
 [submodule "pose_cov_ops"]
   path = pose_cov_ops
   url = git@github.com:srv/pose_cov_ops.git
@@ -29,7 +29,7 @@
 [submodule "emlid_reach_tcp"]
   path = emlid_reach_tcp
   url = git@github.com:srv/emlid_reach_tcp.git
-  branch = kinetic
+  branch = melodic
 [submodule "evologics_ros_sync"]
   path = evologics_ros_sync
   url = git@github.com:srv/evologics_ros_sync.git
@@ -40,16 +40,53 @@
   branch = kinetic
 [submodule "cola2_core"]
 	path = cola2_core
-	url = https://bitbucket.org/iquarobotics/cola2_core.git
-  branch = master
+	url = git@github.com:srv/cola2_core.git
+  branch = melodic
 [submodule "cola2_lib"]
 	path = cola2_lib
-	url = https://bitbucket.org/iquarobotics/cola2_lib.git
-  branch = master
+	url = git@github.com:srv/cola2_lib.git
+  branch = melodic
 [submodule "cola2_msgs"]
 	path = cola2_msgs
-	url = https://bitbucket.org/iquarobotics/cola2_msgs.git
-  branch = master
+	url = git@github.com:srv/cola2_msgs.git
+  branch = melodic
 [submodule "prosilica_driver"]
 	path = prosilica_driver
 	url = git@github.com:srv/prosilica_driver.git
+  branch = melodic
+[submodule "adis_imu"]
+	path = adis_imu
+	url = git@github.com:srv/adis_imu.git
+  branch = melodic
+[submodule "battery_control_board"]
+	path = battery_control_board
+	url = git@github.com:srv/battery_control_board.git
+  branch = melodic
+[submodule "cola2_sparus"]
+	path = cola2_sparus
+	url = git@github.com:srv/cola2_sparus.git
+  branch = melodic
+[submodule "emus_bms"]
+	path = emus_bms
+	url = git@github.com:srv/emus_bms.git
+  branch = melodic
+[submodule "gui-server"]
+	path = gui-server
+	url = git@github.com:srv/gui-server.git
+  branch = melodic
+[submodule "nmea_gps"]
+	path = nmea_gps
+	url = git@github.com:srv/nmea_gps.git
+  branch = melodic
+[submodule "s2_actuators"]
+	path = s2_actuators
+	url = git@github.com:srv/s2_actuators.git
+  branch = melodic
+[submodule "sparus2_description"]
+	path = sparus2_description
+	url = git@github.com:srv/sparus2_description.git
+  branch = melodic
+[submodule "teledyne_explorer_dvl"]
+	path = teledyne_explorer_dvl
+	url = git@github.com:srv/teledyne_explorer_dvl.git
+  branch = melodic
