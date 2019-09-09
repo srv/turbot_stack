@@ -11,6 +11,7 @@ Wait for the code to download.
 Install dependencies
 
       $ sudo apt install ros-melodic-mrpt-bridge ros-melodic-geographic-msgs ros-melodic-rosbridge-server ros-melodic-imu-filter-madgwick
+      $ sudo pip install ruamel.yaml
 
 
 ## Working with submodules

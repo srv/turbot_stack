@@ -33,7 +33,7 @@
 [submodule "evologics_ros_sync"]
   path = evologics_ros_sync
   url = git@github.com:srv/evologics_ros_sync.git
-  branch = kinetic
+  branch = melodic
 [submodule "visual_altimeter"]
   path = visual_altimeter
   url = git@github.com:srv/visual_altimeter.git
