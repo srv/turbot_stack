@@ -62,10 +62,6 @@
 	path = battery_control_board
 	url = git@github.com:srv/battery_control_board.git
   branch = melodic
-[submodule "cola2_sparus"]
-	path = cola2_sparus
-	url = git@github.com:srv/cola2_sparus.git
-  branch = melodic
 [submodule "emus_bms"]
 	path = emus_bms
 	url = git@github.com:srv/emus_bms.git
@@ -82,11 +78,15 @@
 	path = s2_actuators
 	url = git@github.com:srv/s2_actuators.git
   branch = melodic
-[submodule "sparus2_description"]
-	path = sparus2_description
-	url = git@github.com:srv/sparus2_description.git
-  branch = melodic
 [submodule "teledyne_explorer_dvl"]
 	path = teledyne_explorer_dvl
 	url = git@github.com:srv/teledyne_explorer_dvl.git
+  branch = melodic
+[submodule "cola2_turbot"]
+	path = cola2_turbot
+	url = git@github.com:srv/cola2_turbot.git
+  branch = melodic
+[submodule "turbot_description"]
+	path = turbot_description
+	url = git@github.com:srv/turbot_description.git
   branch = melodic
