@@ -18,10 +18,6 @@
   path = ros_arduino_bridge
   url = git@github.com:srv/ros_arduino_bridge.git
   branch = melodic
-[submodule "pose_cov_ops"]
-  path = pose_cov_ops
-  url = git@github.com:srv/pose_cov_ops.git
-  branch = kinetic
 [submodule "multimaster_fkie"]
   path = multimaster_fkie
   url = git@github.com:srv/multimaster_fkie.git
@@ -90,3 +86,6 @@
 	path = turbot_description
 	url = git@github.com:srv/turbot_description.git
   branch = melodic
+[submodule "ned_tools"]
+	path = ned_tools
+	url = git@github.com:srv/ned_tools.git
