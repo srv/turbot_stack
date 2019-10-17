@@ -1,7 +1,7 @@
 [submodule "usbl_position"]
   path = usbl_position
   url = git@github.com:srv/usbl_position.git
-  branch = kinetic
+  branch = melodic
 [submodule "mjpeg_server"]
   path = mjpeg_server
   url = git@github.com:srv/mjpeg_server.git
