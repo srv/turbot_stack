@@ -21,7 +21,7 @@
 [submodule "multimaster_fkie"]
   path = multimaster_fkie
   url = git@github.com:srv/multimaster_fkie.git
-  branch = kinetic
+  branch = master
 [submodule "emlid_reach_tcp"]
   path = emlid_reach_tcp
   url = git@github.com:srv/emlid_reach_tcp.git
