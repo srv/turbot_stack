@@ -89,3 +89,6 @@
 [submodule "ned_tools"]
 	path = ned_tools
 	url = git@github.com:srv/ned_tools.git
+[submodule "iquaview"]
+	path = iquaview
+	url = git@github.com:srv/iquaview.git
