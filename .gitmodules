@@ -21,7 +21,7 @@
 [submodule "multimaster_fkie"]
   path = multimaster_fkie
   url = git@github.com:srv/multimaster_fkie.git
-  branch = kinetic
+  branch = melodic
 [submodule "emlid_reach_tcp"]
   path = emlid_reach_tcp
   url = git@github.com:srv/emlid_reach_tcp.git
@@ -33,7 +33,7 @@
 [submodule "visual_altimeter"]
   path = visual_altimeter
   url = git@github.com:srv/visual_altimeter.git
-  branch = kinetic
+  branch = melodic
 [submodule "cola2_core"]
 	path = cola2_core
 	url = git@github.com:srv/cola2_core.git
