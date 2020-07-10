@@ -92,6 +92,9 @@
 [submodule "iquaview"]
 	path = iquaview
 	url = git@github.com:srv/iquaview.git
+[submodule "robotmissions"]
+	path = robotmissions
+	url = git@github.com:srv/robotmissions.git
 [submodule "imagenex_echosounder"]
 	path = imagenex_echosounder
 	url = git@github.com:srv/imagenex_echosounder.git
