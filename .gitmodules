@@ -98,3 +98,9 @@
 [submodule "imagenex_echosounder"]
 	path = imagenex_echosounder
 	url = git@github.com:srv/imagenex_echosounder.git
+[submodule "logger"]
+	path = logger
+	url = https://github.com/srv/logger
+[submodule "image_pipeline"]
+	path = image_pipeline
+	url = https://github.com/srv/image_pipeline
