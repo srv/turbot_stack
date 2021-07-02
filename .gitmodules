@@ -100,7 +100,7 @@
 	url = git@github.com:srv/imagenex_echosounder.git
 [submodule "logger"]
 	path = logger
-	url = https://github.com/srv/logger
+	url = git@github.com:srv/logger.git
 [submodule "image_pipeline"]
 	path = image_pipeline
-	url = https://github.com/srv/image_pipeline
+	url = git@github.com:srv/image_pipeline.git
