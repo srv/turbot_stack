@@ -101,3 +101,6 @@
 [submodule "image_pipeline"]
 	path = image_pipeline
 	url = git@github.com:srv/image_pipeline.git
+[submodule "link_quality"]
+	path = link_quality
+	url = https://github.com/martorelltorres/link_quality.git
