@@ -109,3 +109,6 @@
 
 
 
+[submodule "pose_cov_ops"]
+	path = pose_cov_ops
+	url = git@github.com:srv/pose_cov_ops.git

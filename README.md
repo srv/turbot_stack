@@ -10,9 +10,10 @@ Wait for the code to download.
 
 Install dependencies
 
-      $ sudo apt install ros-melodic-pose-cov-ops ros-melodic-geographic-msgs ros-melodic-rosbridge-server
+      $ sudo apt install ros-melodic-geographic-msgs ros-melodic-rosbridge-server
       $ sudo pip install ruamel.yaml
 
+pose_cov_ops has been included in the stack because the latest version of this package does not switch correctly between ROS1 and ROS2. For computers that have a working version of pose_cov_ops installed in /opt/ros/melodic a CATKIN_IGNORE must be included in the stack package.
 
 ## Working with submodules
 
