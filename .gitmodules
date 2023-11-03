@@ -74,6 +74,10 @@
 	path = nmea_gps
 	url = git@github.com:srv/nmea_gps.git
   branch = melodic
+[submodule "pose_cov_ops"]
+	path = pose_cov_ops
+	url = git@github.com:srv/pose_cov_ops.git
+  branch = melodic
 [submodule "prosilica_driver"]
 	path = prosilica_driver
 	url = git@github.com:srv/prosilica_driver.git
@@ -106,9 +110,3 @@
   path = visual_altimeter
   url = git@github.com:srv/visual_altimeter.git
   branch = melodic
-
-
-
-[submodule "pose_cov_ops"]
-	path = pose_cov_ops
-	url = git@github.com:srv/pose_cov_ops.git
