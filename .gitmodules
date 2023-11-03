@@ -62,10 +62,6 @@
 	path = logger
 	url = git@github.com:srv/logger.git
   branch = melodic
-[submodule "mjpeg_server"]
-  path = mjpeg_server
-  url = git@github.com:srv/mjpeg_server.git
-  branch = kinetic
 [submodule "multimaster_fkie"]
   path = multimaster_fkie
   url = git@github.com:srv/multimaster_fkie.git
