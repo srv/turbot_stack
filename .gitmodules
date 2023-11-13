@@ -1,23 +1,27 @@
 [submodule "adis_imu"]
 	path = adis_imu
 	url = git@github.com:srv/adis_imu.git
-  branch = melodic
+  branch = dev-v20.10
 [submodule "battery_control_board"]
 	path = battery_control_board
 	url = git@github.com:srv/battery_control_board.git
-  branch = melodic
+  branch = dev-v20.10
 [submodule "cola2_core"]
 	path = cola2_core
 	url = git@github.com:srv/cola2_core.git
-  branch = melodic
+  branch = dev-v20.10
 [submodule "cola2_lib"]
 	path = cola2_lib
 	url = git@github.com:srv/cola2_lib.git
-  branch = melodic
+  branch = dev-v20.10
+[submodule "cola2_lib_ros"]
+	path = cola2_lib_ros
+	url = https://github.com/srv/cola2_lib_ros
+  branch = dev-v20.10
 [submodule "cola2_msgs"]
 	path = cola2_msgs
 	url = git@github.com:srv/cola2_msgs.git
-  branch = melodic
+  branch = dev-v20.10
 [submodule "cola2_turbot"]
 	path = cola2_turbot
 	url = git@github.com:srv/cola2_turbot.git
@@ -29,7 +33,7 @@
 [submodule "emus_bms"]
 	path = emus_bms
 	url = git@github.com:srv/emus_bms.git
-  branch = melodic
+  branch = dev-v20.10
 [submodule "evologics_ros_sync"]
   path = evologics_ros_sync
   url = git@github.com:srv/evologics_ros_sync.git
@@ -53,7 +57,11 @@
 [submodule "iquaview"]
 	path = iquaview
 	url = git@github.com:srv/iquaview.git
-  branch = melodic
+  branch = dev-v20.10
+[submodule "iqua_t350_thrusters"]
+	path = iqua_t350_thrusters
+	url = https://github.com/srv/iqua_t350_thrusters
+  branch = dev-v20.10
 [submodule "link_quality"]
 	path = link_quality
 	url = https://github.com/martorelltorres/link_quality.git
@@ -73,7 +81,7 @@
 [submodule "nmea_gps"]
 	path = nmea_gps
 	url = git@github.com:srv/nmea_gps.git
-  branch = melodic
+  branch = dev-v20.10
 [submodule "pose_cov_ops"]
 	path = pose_cov_ops
 	url = git@github.com:srv/pose_cov_ops.git
@@ -101,7 +109,7 @@
 [submodule "turbot_description"]
 	path = turbot_description
 	url = git@github.com:srv/turbot_description.git
-  branch = melodic
+  branch = dev-v20.10
 [submodule "usbl_position"]
   path = usbl_position
   url = git@github.com:srv/usbl_position.git
@@ -110,3 +118,4 @@
   path = visual_altimeter
   url = git@github.com:srv/visual_altimeter.git
   branch = melodic
+
