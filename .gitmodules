@@ -25,7 +25,7 @@
 [submodule "cola2_turbot"]
 	path = cola2_turbot
 	url = git@github.com:srv/cola2_turbot.git
-  branch = dev
+  branch = dev-v20.10
 [submodule "emlid_reach_tcp"]
   path = emlid_reach_tcp
   url = git@github.com:srv/emlid_reach_tcp.git
@@ -101,11 +101,11 @@
 [submodule "s2_actuators"]
 	path = s2_actuators
 	url = git@github.com:srv/s2_actuators.git
-  branch = melodic
+  branch = dev-v20.10
 [submodule "teledyne_explorer_dvl"]
 	path = teledyne_explorer_dvl
 	url = git@github.com:srv/teledyne_explorer_dvl.git
-  branch = melodic
+  branch = dev-v20.10
 [submodule "turbot_description"]
 	path = turbot_description
 	url = git@github.com:srv/turbot_description.git
@@ -113,7 +113,7 @@
 [submodule "usbl_position"]
   path = usbl_position
   url = git@github.com:srv/usbl_position.git
-  branch = melodic
+  branch = dev-v20.10
 [submodule "visual_altimeter"]
   path = visual_altimeter
   url = git@github.com:srv/visual_altimeter.git
