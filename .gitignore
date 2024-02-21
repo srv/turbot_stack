@@ -1,3 +1,4 @@
 image_pipeline/
 link_quality/
 logger/
+# Folders not included in the remote repository for the noetic-uib branch, but locally present. In this way they are ignored.
