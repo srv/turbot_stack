@@ -1,105 +1,105 @@
 [submodule "usbl_position"]
   path = usbl_position
   url = git@github.com:srv/usbl_position.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "mjpeg_server"]
   path = mjpeg_server
   url = git@github.com:srv/mjpeg_server.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "robot_localization"]
   path = robot_localization
   url = git@github.com:srv/robot_localization.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "image_proc_custom"]
   path = image_proc_custom
   url = git@github.com:srv/image_proc_custom.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "ros_arduino_bridge"]
   path = ros_arduino_bridge
   url = git@github.com:srv/ros_arduino_bridge.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "multimaster_fkie"]
   path = multimaster_fkie
   url = git@github.com:srv/multimaster_fkie.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "emlid_reach_tcp"]
   path = emlid_reach_tcp
   url = git@github.com:srv/emlid_reach_tcp.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "evologics_ros_sync"]
   path = evologics_ros_sync
   url = git@github.com:srv/evologics_ros_sync.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "visual_altimeter"]
   path = visual_altimeter
   url = git@github.com:srv/visual_altimeter.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "cola2_core"]
 	path = cola2_core
 	url = git@github.com:srv/cola2_core.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "cola2_lib"]
 	path = cola2_lib
 	url = git@github.com:srv/cola2_lib.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "cola2_msgs"]
 	path = cola2_msgs
 	url = git@github.com:srv/cola2_msgs.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "prosilica_driver"]
 	path = prosilica_driver
 	url = git@github.com:srv/prosilica_driver.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "adis_imu"]
 	path = adis_imu
 	url = git@github.com:srv/adis_imu.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "battery_control_board"]
 	path = battery_control_board
 	url = git@github.com:srv/battery_control_board.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "emus_bms"]
 	path = emus_bms
 	url = git@github.com:srv/emus_bms.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "gui-server"]
 	path = gui-server
 	url = git@github.com:srv/gui-server.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "nmea_gps"]
 	path = nmea_gps
 	url = git@github.com:srv/nmea_gps.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "s2_actuators"]
 	path = s2_actuators
 	url = git@github.com:srv/s2_actuators.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "teledyne_explorer_dvl"]
 	path = teledyne_explorer_dvl
 	url = git@github.com:srv/teledyne_explorer_dvl.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "cola2_turbot"]
 	path = cola2_turbot
 	url = git@github.com:srv/cola2_turbot.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "turbot_description"]
 	path = turbot_description
 	url = git@github.com:srv/turbot_description.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "ned_tools"]
 	path = ned_tools
 	url = git@github.com:srv/ned_tools.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "iquaview"]
 	path = iquaview
 	url = git@github.com:srv/iquaview.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "robotmissions"]
 	path = robotmissions
 	url = git@github.com:srv/robotmissions.git
-  branch = noetic
+  branch = noetic-uib
 [submodule "imagenex_echosounder"]
 	path = imagenex_echosounder
 	url = git@github.com:srv/imagenex_echosounder.git
-  branch = noetic
+  branch = noetic-uib
 
