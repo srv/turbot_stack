@@ -54,3 +54,7 @@
 	path = teledyne_rdi_dvl
 	url = git@github.com:srv/teledyne_rdi_dvl.git
   branch = noetic-iquarobotics
+[submodule "iquaview_lib"]
+	path = iquaview_lib
+	url = git@github.com:srv/iquaview_lib.git
+  branch = noetic-iquarobotics
