@@ -34,10 +34,6 @@
 	path = emus_bms
 	url = git@github.com:srv/emus_bms.git
   branch = noetic-24.01
-[submodule "evologics_ros_sync"]
-  path = evologics_ros_sync
-  url = git@github.com:srv/evologics_ros_sync.git
-  branch = noetic
 [submodule "gui-server"]
 	path = gui-server
 	url = git@github.com:srv/gui-server.git
@@ -62,30 +58,10 @@
 	path = iquaview_lib
 	url = git@github.com:srv/iquaview_lib.git
   branch = noetic-24.01
-[submodule "link_quality"]
-	path = link_quality
-	url = git@github.com:srv/link_quality.git
-  branch = turbot
-[submodule "logger"]
-	path = logger
-	url = git@github.com:srv/logger.git
-  branch = melodic
-[submodule "multimaster_fkie"]
-  path = multimaster_fkie
-  url = git@github.com:srv/multimaster_fkie.git
-  branch = melodic
-[submodule "ned_tools"]
-	path = ned_tools
-	url = git@github.com:srv/ned_tools.git
-  branch = melodic
 [submodule "nmea_gps"]
 	path = nmea_gps
 	url = git@github.com:srv/nmea_gps.git
   branch = noetic-24.01
-[submodule "pose_cov_ops"]
-	path = pose_cov_ops
-	url = git@github.com:srv/pose_cov_ops.git
-  branch = noetic-uib
 [submodule "prosilica_driver"]
 	path = prosilica_driver
 	url = git@github.com:srv/prosilica_driver.git
@@ -110,10 +86,6 @@
 	path = turbot_description
 	url = git@github.com:srv/turbot_description.git
   branch = noetic-24.01-uib
-[submodule "usbl_position"]
-  path = usbl_position
-  url = git@github.com:srv/usbl_position.git
-  branch = noetic
 [submodule "visual_altimeter"]
   path = visual_altimeter
   url = git@github.com:srv/visual_altimeter.git
