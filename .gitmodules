@@ -17,7 +17,7 @@
 [submodule "cola2_lib"]
 	path = cola2_lib
 	url = git@github.com:srv/cola2_lib.git
-  	branch = noetic-24.01
+  	branch = noetic-24.01-uib
 [submodule "cola2_lib_ros"]
 	path = cola2_lib_ros
 	url = git@github.com:srv/cola2_lib_ros.git
@@ -77,7 +77,7 @@
 [submodule "teledyne_explorer_dvl"]
 	path = teledyne_explorer_dvl
 	url = git@github.com:srv/teledyne_explorer_dvl.git
-  	branch = noetic-03.01-uib
+  	branch = noetic-24.01-uib
 [submodule "turbot_description"]
 	path = turbot_description
 	url = git@github.com:srv/turbot_description.git

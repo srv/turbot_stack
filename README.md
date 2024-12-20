@@ -9,7 +9,20 @@ Clone this repository and execute the script `install_first_time.sh`
 Wait for the code to download.
 
 Install dependencies
+      $ sudo apt update
+      $ sudo apt -y install libboost-thread-dev libboost-date-time-dev libboost-filesystem-dev libeigen3-dev libtinyxml-dev python3 <!-- cola2_lib -->
+      $ sudo apt -y install lcov <!-- cola2_core -->
+      $ sudo apt -y install ros-noetic-joy ros-noetic-rosbridge-server <!-- cola2_turbot -->
 
+Install cola2_lib
+      (cola2_lib)$ mkdir build
+      (cola2_lib)$ cd build
+      (cola2_lib/build)$ cmake ..
+      (cola2_lib/build)$ make
+      (cola2_lib/build)$ sudo make install
+
+
+<!-- 
       $ sudo apt install libgeographic-dev ros-melodic-geographic-msgs ros-melodic-rosbridge-server
       $ sudo pip install ruamel.yaml
 
@@ -57,4 +70,4 @@ To remove a submodule you need to:
 - Run git rm --cached path_to_submodule (no trailing slash).
 - Run rm -rf .git/modules/path_to_submodule (no trailing slash).
 - Commit git commit -m "Removed submodule <name>"
-- Delete the now untracked submodule files rm -rf path_to_submodule
+- Delete the now untracked submodule files rm -rf path_to_submodule -->
