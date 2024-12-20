@@ -70,10 +70,6 @@
   	path = ros_arduino_bridge
   	url = git@github.com:srv/ros_arduino_bridge.git
   	branch = noetic-turbot
-[submodule "s2_actuators"]
-	path = s2_actuators
-	url = git@github.com:srv/s2_actuators.git
-  	branch = noetic-03.01-uib
 [submodule "teledyne_explorer_dvl"]
 	path = teledyne_explorer_dvl
 	url = git@github.com:srv/teledyne_explorer_dvl.git
@@ -86,3 +82,6 @@
   	path = visual_altimeter
   	url = git@github.com:srv/visual_altimeter.git
   	branch = noetic
+[submodule "iqua_t350_thrusters"]
+	path = iqua_t350_thrusters
+	url = git@github.com:srv/iqua_t350_thrusters.git
