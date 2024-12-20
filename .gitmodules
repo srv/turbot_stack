@@ -54,6 +54,10 @@
 	path = imagenex_echosounder
 	url = git@github.com:srv/imagenex_echosounder.git
   	branch = noetic
+[submodule "iqua_t350_thrusters"]
+	path = iqua_t350_thrusters
+	url = git@github.com:srv/iqua_t350_thrusters.git
+	branch = noetic-24.01
 [submodule "nmea_gps"]
 	path = nmea_gps
 	url = git@github.com:srv/nmea_gps.git
@@ -82,6 +86,3 @@
   	path = visual_altimeter
   	url = git@github.com:srv/visual_altimeter.git
   	branch = noetic
-[submodule "iqua_t350_thrusters"]
-	path = iqua_t350_thrusters
-	url = git@github.com:srv/iqua_t350_thrusters.git
