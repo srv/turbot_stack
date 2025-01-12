@@ -38,6 +38,10 @@
 	path = emus_bms
 	url = git@github.com:srv/emus_bms.git
   	branch = noetic-24.01
+[submodule "evologics_modem"]
+	path = evologics_modem
+	url = git@github.com:srv/evologics_modem.git
+	branch = noetic-24.01
 [submodule "gui-server"]
 	path = gui-server
 	url = git@github.com:srv/gui-server.git
