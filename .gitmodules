@@ -22,6 +22,10 @@
 	path = cola2_msgs
 	url = git@github.com:srv/cola2_msgs.git
   	branch = noetic-24.01
+[submodule "cola2_sparus2"]
+	path = cola2_sparus2
+	url = git@github.com:srv/cola2_sparus2.git
+	branch = noetic-24.01-turbot
 [submodule "cola2_turbot"]
 	path = cola2_turbot
 	url = git@github.com:srv/cola2_turbot.git
