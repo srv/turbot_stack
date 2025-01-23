@@ -74,13 +74,13 @@
   	path = ros_arduino_bridge
   	url = git@github.com:srv/ros_arduino_bridge.git
   	branch = noetic-turbot
+[submodule "sparus2_description"]
+	path = sparus2_description
+	url = git@github.com:srv/sparus2_description.git
+	branch = noetic-24.01-turbot
 [submodule "teledyne_explorer_dvl"]
 	path = teledyne_explorer_dvl
 	url = git@github.com:srv/teledyne_explorer_dvl.git
-  	branch = noetic-24.01-uib
-[submodule "turbot_description"]
-	path = turbot_description
-	url = git@github.com:srv/turbot_description.git
   	branch = noetic-24.01-uib
 [submodule "visual_altimeter"]
   	path = visual_altimeter
