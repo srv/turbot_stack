@@ -26,10 +26,6 @@
 	path = cola2_sparus2
 	url = git@github.com:srv/cola2_sparus2.git
 	branch = noetic-24.01-turbot
-[submodule "cola2_turbot"]
-	path = cola2_turbot
-	url = git@github.com:srv/cola2_turbot.git
-  	branch = noetic-24.01-uib
 [submodule "emlid_reach_tcp"]
   	path = emlid_reach_tcp
   	url = git@github.com:srv/emlid_reach_tcp.git
