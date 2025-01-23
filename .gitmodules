@@ -6,6 +6,10 @@
 	path = battery_control_board
 	url = git@github.com:srv/battery_control_board.git
   	branch = noetic-24.01
+[submodule "cola2_analysis"]
+	path = cola2_analysis
+	url = git@github.com:srv/cola2_analysis.git
+	branch = noetic-24.01
 [submodule "cola2_core"]
 	path = cola2_core
 	url = git@github.com:srv/cola2_core.git
