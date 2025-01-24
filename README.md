@@ -2,72 +2,44 @@
 
 ## Installation
 
-Clone this repository and execute the script `install_first_time.sh`
+**Installing turbot_stack for the first time on a computer:**
 
-    (turbot_stack)$ ./install_first_time.sh
+      (turbot_stack)$ bash install_first_time.sh
 
-Wait for the code to download.
+install_first_time.sh installs the necessary dependencies, downloads the content of the submodules from github, installs cola2_lib and compiles the rest of the submodules.
 
-Install dependencies
-      $ sudo apt update
-      $ sudo apt -y install libboost-thread-dev libboost-date-time-dev libboost-filesystem-dev libeigen3-dev libtinyxml-dev python3 <!-- cola2_lib -->
-      $ sudo apt -y install lcov <!-- cola2_core -->
-      $ sudo apt -y install ros-noetic-joy ros-noetic-rosbridge-server <!-- cola2_turbot -->
+**If turbot_stack has already been installed once on your computer:**
 
-Install cola2_lib
-      (cola2_lib)$ mkdir build
-      (cola2_lib)$ cd build
-      (cola2_lib/build)$ cmake ..
-      (cola2_lib/build)$ make
-      (cola2_lib/build)$ sudo make install
+      (turbot_stack)$ bash download_submodules.sh
 
-
-<!-- 
-      $ sudo apt install libgeographic-dev ros-melodic-geographic-msgs ros-melodic-rosbridge-server
-      $ sudo pip install ruamel.yaml
-
-pose_cov_ops has been included in the stack because the latest version of this package does not switch correctly between ROS1 and ROS2. For computers that have a working version of pose_cov_ops installed in /opt/ros/melodic a CATKIN_IGNORE must be included in the stack package, otherwise pose_cov_ops must be compiled.
+download_submodules.sh only downloads submodules from github.
 
 ## Working with submodules
 
+**Add submodule**
+
+Clones and adds a new submodule to the stack:
+
+      (turbot_stack)$ git submodule add github_repository_url
+
+If necessary, go into the submodule just downloaded and switch to the branch you need.
+
+Modify .gitmodules to add the branch that you always want to be downloaded.
+
+Finally:
+
+      (turbot_stack)$ git add .
+      (turbot_stack)$ git commit -m "insert_message"
+      (turbot_stack)$ git push
+
+**Remove submodule**
+
+      (turbot_stack)$ git rm submodule_name
+      (turbot_stack)$ git add .
+      (turbot_stack)$ git commit -m "insert_message"
+      (turbot_stack)$ git push
+
+**Update submodule**
+
  1. Pull twice: On the main repository execute `git pull && git submodule foreach git pull`.
  2. Push twice: Work with the code in any submodule as usual. Commit and push as usual. At the end, go to the main repository and check what a `git status` shows. It will normally show that a particular repo has changed. For example:
-
- Say we have a main repo called *robot* and a submodule called *sensor*. If we update it, we have to commit twice, one for the submodule and another for the main repo.
-
-      $ ls robot/
-           ./
-           ../
-           sensor/
-      $ cd sensor
-      $ git touch test.txt
-      $ git add test.txt
-      $ git commit -m "added file test"
-      $ git push
-      $ cd ..
-      $ git status
-          On branch master
-          Your branch is up-to-date with 'origin/master'.
-
-          Changes not staged for commit:
-            (use "git add <file>..." to update what will be committed)
-            (use "git checkout -- <file>..." to discard changes in working directory)
-            (commit or discard the untracked or modified content in submodules)
-
-            modified:   sensor (modified content)
-
-          no changes added to commit (use "git add" and/or "git commit -a")
-      $ git add sensor
-      $ git commit -m "updated sensor reference"
-      $ git push
-
-### Remove submodule
-To remove a submodule you need to:
-
-- Delete the relevant section from the .gitmodules file.
-- Stage the .gitmodules changes git add .gitmodules
-- Delete the relevant section from .git/config.
-- Run git rm --cached path_to_submodule (no trailing slash).
-- Run rm -rf .git/modules/path_to_submodule (no trailing slash).
-- Commit git commit -m "Removed submodule <name>"
-- Delete the now untracked submodule files rm -rf path_to_submodule -->
