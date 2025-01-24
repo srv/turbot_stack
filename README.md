@@ -15,6 +15,9 @@ install_first_time.sh installs the necessary dependencies, downloads the content
 Inside the turbot_stack directory, run:
 
       bash download_submodules.sh
+      catkin build cola2_lib_ros
+      catkin build cola2_core
+      catkin build
 
 download_submodules.sh only downloads submodules from github.
 
