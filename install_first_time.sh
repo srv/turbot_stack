@@ -17,7 +17,7 @@ sudo apt -y install lcov # cola2_core
 sudo apt -y install ros-noetic-joy ros-noetic-rosbridge-server # cola2_sparus2
 
 # 3. Download submodules from github.
-bash download_repositories.sh
+bash download_submodules.sh
 
 # 4. Install cola2_lib
 cd cola2_lib
