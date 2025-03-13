@@ -51,4 +51,4 @@ Inside the turbot_stack directory, run:
 **Update submodule.**
 
  1. Pull twice: On the main repository execute `git pull && git submodule foreach git pull`.
- 2. Push twice: Work with the code in any submodule as usual. Commit and push as usual. At the end, go to the main repository and check what a `git status` shows. It will normally show that a particular repo has changed. For example:
+ 2. Push twice: Work with the code in any submodule as usual. Commit and push as usual. At the end, go to the main repository and check what a `git status` shows. It will normally show that a particular repo has changed.
